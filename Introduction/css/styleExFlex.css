@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-pai {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    
+}
+.box{
+    width:10vw;
+    min-width: 5vw;
+    height: 15vw;
+    margin: 3vh 3vw;
+    padding: 1vh 1vw;
+    display: block;
+    
+}
+.box-child-1{
+    border: thin solid red;
+    height: 9vw;
+    width: auto;
+    
+}
+.box-child-2{
+    border: thin solid red;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.box-child-5{
+    border: thin solid red;
+    height: 15vw;
+    margin: 3vh 1vw;
+    width:15vw;
+    
+}
+.box-child-6{
+    border: thin solid red;
+    height: 15vw;
+    margin: 3vh 1vw;
+    width:70vw;
+}
+.box-child-3{
+    border: thin solid red;
+    width: auto;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+}    
+.box-child-7{
+    border: thin solid red;
+    height: 15vw;
+    margin: 3vh 3vw;
+    width:30vw;
+}
+.box-child-8{
+    border: thin solid red;
+    height: 15vw;
+    margin: 3vh 3vw;
+    width:30vw;
+}
+.box-child-9{
+    border: thin solid red;
+    height: 15vw;
+    margin: 3vh 3vw;
+    width:30vw;
+}
+.box-child-10{
+    border: thin solid red;
+    height: 15vw;
+    margin: 3vh 3vw;
+    width:30vw;
+}
+.box-child-4{
+    border: thin solid red;
+    width: auto;
+    height: 20vw;
+
+}
